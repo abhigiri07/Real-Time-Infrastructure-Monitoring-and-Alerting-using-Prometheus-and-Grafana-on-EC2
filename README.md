@@ -329,7 +329,7 @@ The alert should show **FIRING**.
 ## Monitoring Pipeline
 
 Complete monitoring flow:
-
+```
 Application Servers
 ↓
 Node Exporter
@@ -339,7 +339,7 @@ Prometheus (scrapes metrics every 15s)
 Grafana Dashboards
 ↓
 Alert Rules Trigger Notifications
-
+```
 ---
 
 ## Project Deliverables
@@ -351,3 +351,4 @@ This repository includes:
 * Grafana dashboard screenshots
 * Monitoring architecture documentation
 ---
+
